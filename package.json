@@ -1,0 +1,14 @@
+{
+  "name": "test-eslint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-test": "https://github.com/Pomierski/eslint-test",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "eslint": "eslint './*.ts'"
+  }
+}
